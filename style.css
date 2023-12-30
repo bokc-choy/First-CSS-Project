@@ -82,7 +82,38 @@ button {
 /************ section 2 ************/
 .section2 {
     background-color: white;
+    padding: 12px 175px;
 }
+
+.header2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px 0px;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.image1, .image2, .image3, .image4 {
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    outline: 5px solid #3882F6;
+}
+
+.text1, .text2, .text3, .text4 {
+    width: 150px;
+    height: 150px;
+    padding: 12px 0;
+    text-align: center;
+}
+
 
 /************ section 3 ************/
 .section3 {
