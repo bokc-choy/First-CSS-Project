@@ -118,9 +118,67 @@ button {
 /************ section 3 ************/
 .section3 {
     background-color: #E5E7EB;
+    padding: 12px 275px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-credit {
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 /************ section 4 ************/
 .section4 {
     background-color: white;
+    padding: 75px 150px;
+}
+
+.content4 {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 8px;
+    padding: 50px 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.sub-call {
+    font-size: 20px;
+    color: rgb(202, 202, 202)
+}
+
+.btn2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 28px;
+    margin: 8px 0px;
+    border-radius: 8px;
+    outline: 2px solid white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 30px 0px;
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
 }
